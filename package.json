@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init": "npm install && node db && sequelize db:seed:all",
+    "init": "pnpm install && node db && sequelize db:seed:all",
     "start": "node start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

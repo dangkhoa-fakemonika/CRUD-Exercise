@@ -64,7 +64,7 @@ async function editUser(event){
       throw new Error(resText);
     }
   } catch (e){
-    document.querySelector("#errorMessage").innerText = e.message;
+    document.querySelector("#errorMessageEdit").innerText = e.message;
     console.error(e);
   }
 }
